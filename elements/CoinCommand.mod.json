@@ -1,0 +1,10 @@
+{
+  "_fv": 60,
+  "_type": "command",
+  "definition": {
+    "commandName": "coin",
+    "type": "STANDARD",
+    "permissionLevel": "1",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"784\" y=\"159\"><next><block type=\"entity\"><field name=\"name\">player</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">add</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">amount</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">AddCoinProcedure</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">remove</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">amount</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">RemoveCoinProcedure</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">set</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">amount</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SetCoinProcedure</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">clear</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ClearCoinProcedure</field></block></statement><next><block type=\"literal\"><field name=\"name\">get</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">GetCoinProcedure</field></block></statement></block></next></block></next></block></next></block></next></block></statement></block></next></block></xml>"
+  }
+}

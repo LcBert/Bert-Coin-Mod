@@ -1,0 +1,510 @@
+[20Jun2024 17:06:15.407] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 20.4.223, --assetIndex, asset-index, --assetsDir, C:\Users\lucab\.mcreator\gradle\caches\minecraft\assets\1.20.4, --gameDir, ., --fml.neoForgeVersion, 20.4.223, --fml.fmlVersion, 2.0.17, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220]
+[20Jun2024 17:06:15.412] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[20Jun2024 17:06:15.441] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev]
+[20Jun2024 17:06:15.456] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[20Jun2024 17:06:15.468] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[20Jun2024 17:06:15.481] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[20Jun2024 17:06:15.488] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client
+[20Jun2024 17:06:15.488] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\mods
+[20Jun2024 17:06:15.488] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config
+[20Jun2024 17:06:15.488] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\fml.toml
+[20Jun2024 17:06:15.519] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\fml.toml
+[20Jun2024 17:06:15.519] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[20Jun2024 17:06:15.519] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 12
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[20Jun2024 17:06:15.520] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[20Jun2024 17:06:15.528] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[20Jun2024 17:06:15.535] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[20Jun2024 17:06:15.624] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[20Jun2024 17:06:15.767] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[20Jun2024 17:06:15.817] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,mixin-synthetic-package,fml]
+[20Jun2024 17:06:15.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[20Jun2024 17:06:15.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[20Jun2024 17:06:15.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[20Jun2024 17:06:15.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-synthetic-package
+[20Jun2024 17:06:15.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-synthetic-package
+[20Jun2024 17:06:15.818] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[20Jun2024 17:06:15.819] [main/DEBUG] [net.neoforged.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 2.0
+[20Jun2024 17:06:15.819] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 2.0 loading
+[20Jun2024 17:06:15.819] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[20Jun2024 17:06:15.820] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[20Jun2024 17:06:15.820] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[20Jun2024 17:06:15.820] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[20Jun2024 17:06:15.821] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 6.0.4+main.1ed25481
+[20Jun2024 17:06:15.821] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.0
+[20Jun2024 17:06:15.822] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 2
+[20Jun2024 17:06:15.822] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[20Jun2024 17:06:15.822] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[20Jun2024 17:06:15.827] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[20Jun2024 17:06:15.828] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[20Jun2024 17:06:15.838] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@4386f16
+[20Jun2024 17:06:15.852] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lucab/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.1+mixin.0.8.5/618f4dff860cf2d6b5196073b1a5f5e0a8591acb/sponge-mixin-0.13.1+mixin.0.8.5.jar%23154!/ Service=ModLauncher Env=CLIENT
+[20Jun2024 17:06:15.855] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[20Jun2024 17:06:15.855] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Jun2024 17:06:15.855] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Jun2024 17:06:15.856] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Jun2024 17:06:15.856] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Jun2024 17:06:15.856] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20Jun2024 17:06:15.859] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[20Jun2024 17:06:15.859] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-synthetic-package
+[20Jun2024 17:06:15.860] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-synthetic-package
+[20Jun2024 17:06:15.860] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[20Jun2024 17:06:15.860] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[20Jun2024 17:06:15.860] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client
+[20Jun2024 17:06:15.860] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\mods
+[20Jun2024 17:06:15.860] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config
+[20Jun2024 17:06:15.861] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\fml.toml
+[20Jun2024 17:06:15.861] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\fml.toml
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 12
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[20Jun2024 17:06:15.863] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[20Jun2024 17:06:15.864] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[20Jun2024 17:06:15.864] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[20Jun2024 17:06:15.864] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[20Jun2024 17:06:15.864] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[20Jun2024 17:06:15.867] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[20Jun2024 17:06:15.867] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[20Jun2024 17:06:15.875] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=20.4.223, fmlVersion=2.0.17, mcVersion=1.20.4, neoFormVersion=20231207.154220]
+[20Jun2024 17:06:15.875] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist CLIENT
+[20Jun2024 17:06:15.877] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[20Jun2024 17:06:15.877] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[20Jun2024 17:06:15.878] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[20Jun2024 17:06:15.879] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[20Jun2024 17:06:15.880] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[20Jun2024 17:06:15.880] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[20Jun2024 17:06:15.880] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin-synthetic-package
+[20Jun2024 17:06:15.890] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin-synthetic-package
+[20Jun2024 17:06:15.890] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[20Jun2024 17:06:15.890] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[20Jun2024 17:06:15.890] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Scanning for Mod Locators
+[20Jun2024 17:06:15.905] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[20Jun2024 17:06:15.909] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:2.0),(maven libs:2.0),(exploded directory:2.0),(minecraft:2.0),(userdev classpath:2.0),(builtin game layer libraries:2.0)
+[20Jun2024 17:06:15.909] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:2.0)
+[20Jun2024 17:06:15.909] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 6 ways to find mods
+[20Jun2024 17:06:15.909] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\mods}
+[20Jun2024 17:06:15.910] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModsFolderLocator/SCAN]: Scanning mods dir C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\mods for mods
+[20Jun2024 17:06:15.914] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\mods} found 0 candidates or errors
+[20Jun2024 17:06:15.914] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 555.85, NVIDIA Corporation
+[20Jun2024 17:06:15.914] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\mods} found 0 valid mod files
+[20Jun2024 17:06:15.915] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {Maven Directory locator for mods []}
+[20Jun2024 17:06:15.915] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {Maven Directory locator for mods []} found 0 candidates or errors
+[20Jun2024 17:06:15.915] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {Maven Directory locator for mods []} found 0 valid mod files
+[20Jun2024 17:06:15.915] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {ExplodedDir locator}
+[20Jun2024 17:06:15.916] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {ExplodedDir locator} found 0 candidates or errors
+[20Jun2024 17:06:15.916] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {ExplodedDir locator} found 0 valid mod files
+[20Jun2024 17:06:15.916] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@1ea9f009
+[20Jun2024 17:06:15.917] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates bert_coin_mod%%C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main;bert_coin_mod%%C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\classes\java\main from env
+[20Jun2024 17:06:15.919] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{bert_coin_mod=[C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main, C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\classes\java\main]}]
+[20Jun2024 17:06:16.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-20.4.223.jar with {minecraft} mods - versions {1.20.4}
+[20Jun2024 17:06:16.094] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main, C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\classes\java\main]
+[20Jun2024 17:06:16.095] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main
+[20Jun2024 17:06:16.102] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {bert_coin_mod} mods - versions {1.0.0}
+[20Jun2024 17:06:16.103] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: []
+[20Jun2024 17:06:16.103] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[20Jun2024 17:06:16.106] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {neoforge} mods - versions {20.4.223}
+[20Jun2024 17:06:16.106] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@1ea9f009 found 3 candidates or errors
+[20Jun2024 17:06:16.106] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@1ea9f009 found 3 valid mod files
+[20Jun2024 17:06:16.106] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.4.223.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@1ea9f009
+[20Jun2024 17:06:16.106] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@1ea9f009
+[20Jun2024 17:06:16.107] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@1ea9f009
+[20Jun2024 17:06:16.107] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@36453307
+[20Jun2024 17:06:16.121] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@36453307 found 0 candidates or errors
+[20Jun2024 17:06:16.122] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@36453307 found 0 valid mod files
+[20Jun2024 17:06:16.122] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@56193c7d
+[20Jun2024 17:06:16.122] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@56193c7d found 0 candidates or errors
+[20Jun2024 17:06:16.122] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@56193c7d found 0 valid mod files
+[20Jun2024 17:06:16.131] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 3 mods. Attempting to load dependencies...
+[20Jun2024 17:06:16.131] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@1286528d
+[20Jun2024 17:06:16.136] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[20Jun2024 17:06:16.186] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[20Jun2024 17:06:16.191] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[20Jun2024 17:06:16.192] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[20Jun2024 17:06:16.192] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[20Jun2024 17:06:16.234] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[20Jun2024 17:06:16.236] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[20Jun2024 17:06:16.237] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixinextras-neoforge-0.3.5.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@1286528d
+[20Jun2024 17:06:16.240] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-20.4.223.jar with {minecraft} mods - versions {1.20.4}
+[20Jun2024 17:06:16.242] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[20Jun2024 17:06:16.244] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main
+[20Jun2024 17:06:16.246] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {bert_coin_mod} mods - versions {1.0.0}
+[20Jun2024 17:06:16.246] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[20Jun2024 17:06:16.246] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[20Jun2024 17:06:16.247] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {neoforge} mods - versions {20.4.223}
+[20Jun2024 17:06:16.247] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,]]]
+[20Jun2024 17:06:16.249] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[20Jun2024 17:06:16.250] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[20Jun2024 17:06:16.250] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[20Jun2024 17:06:16.250] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[20Jun2024 17:06:16.250] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[20Jun2024 17:06:16.250] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[20Jun2024 17:06:16.250] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[20Jun2024 17:06:16.250] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[20Jun2024 17:06:16.250] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[20Jun2024 17:06:16.251] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 4 mod files with 3 mods
+[20Jun2024 17:06:16.251] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[20Jun2024 17:06:16.255] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[20Jun2024 17:06:16.256] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 2.0
+[20Jun2024 17:06:16.257] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 2.0
+[20Jun2024 17:06:16.257] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 2.0
+[20Jun2024 17:06:16.263] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[20Jun2024 17:06:16.263] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[20Jun2024 17:06:16.263] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[20Jun2024 17:06:16.265] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[20Jun2024 17:06:16.266] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[20Jun2024 17:06:16.536] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar
+[20Jun2024 17:06:16.540] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[20Jun2024 17:06:16.646] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[20Jun2024 17:06:16.647] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /
+[20Jun2024 17:06:16.648] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[20Jun2024 17:06:16.670] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[20Jun2024 17:06:16.677] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: /
+[20Jun2024 17:06:16.677] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main
+[20Jun2024 17:06:16.677] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar
+[20Jun2024 17:06:16.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[20Jun2024 17:06:16.678] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[20Jun2024 17:06:16.679] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[20Jun2024 17:06:16.679] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin-synthetic-package
+[20Jun2024 17:06:16.679] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin-synthetic-package
+[20Jun2024 17:06:16.679] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[20Jun2024 17:06:16.679] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[20Jun2024 17:06:16.679] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[20Jun2024 17:06:16.709] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main
+[20Jun2024 17:06:16.709] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\build\resources\main with language loader javafml
+[20Jun2024 17:06:16.712] [background-scan-handler-1/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class net.mcreator.bertcoinmod.BertCoinModMod with id bert_coin_mod
+[20Jun2024 17:06:16.858] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Jun2024 17:06:16.858] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[20Jun2024 17:06:16.898] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: /
+[20Jun2024 17:06:16.898] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning / with language loader javafml
+[20Jun2024 17:06:16.898] [background-scan-handler-2/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class net.neoforged.neoforge.common.NeoForgeMod with id neoforge
+[20Jun2024 17:06:16.915] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Jun2024 17:06:16.915] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[20Jun2024 17:06:16.949] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Jun2024 17:06:16.949] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[20Jun2024 17:06:17.001] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20Jun2024 17:06:17.012] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5afbd567 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[20Jun2024 17:06:17.013] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57c00115 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@411a5965 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@4fe533ff to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5377414a to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@4e83a98 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@17aa8a11 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[20Jun2024 17:06:17.014] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[20Jun2024 17:06:17.015] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[20Jun2024 17:06:17.016] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@71b639d0 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[20Jun2024 17:06:17.016] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[20Jun2024 17:06:17.112] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20Jun2024 17:06:17.112] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20Jun2024 17:06:17.112] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinsynthetic)
+[20Jun2024 17:06:17.112] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinsynthetic)
+[20Jun2024 17:06:17.112] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinsynthetic)
+[20Jun2024 17:06:17.112] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinsynthetic)
+[20Jun2024 17:06:17.112] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinsynthetic)
+[20Jun2024 17:06:17.112] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(bert_coin_mod)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(bert_coin_mod)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(bert_coin_mod)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(bert_coin_mod)
+[20Jun2024 17:06:17.113] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(bert_coin_mod)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bert_coin_mod)]
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[20Jun2024 17:06:17.114] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json
+[20Jun2024 17:06:17.148] [main/DEBUG] [mixin/]: inject() running with 6 agents
+[20Jun2024 17:06:17.149] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20Jun2024 17:06:17.149] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[20Jun2024 17:06:17.149] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[20Jun2024 17:06:17.149] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bert_coin_mod)]
+[20Jun2024 17:06:17.149] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[20Jun2024 17:06:17.149] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[20Jun2024 17:06:17.149] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 20.4.223, --gameDir, ., --assetsDir, C:\Users\lucab\.mcreator\gradle\caches\minecraft\assets\1.20.4, --assetIndex, asset-index]
+[20Jun2024 17:06:17.189] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[20Jun2024 17:06:17.191] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[20Jun2024 17:06:17.192] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[20Jun2024 17:06:17.218] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[20Jun2024 17:06:17.240] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[20Jun2024 17:06:17.242] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[20Jun2024 17:06:17.243] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[20Jun2024 17:06:17.244] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[20Jun2024 17:06:17.245] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[20Jun2024 17:06:17.247] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[20Jun2024 17:06:17.259] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[20Jun2024 17:06:17.261] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.265] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/Overlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.266] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/components/Renderable @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.267] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/AbstractTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.278] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.280] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/SimpleTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.282] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/vertex/BufferVertexConsumer @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.284] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/vertex/VertexConsumer @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.286] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/GuiGraphics @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.299] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft FIELD textureManager to access PUBLIC and LEAVE
+[20Jun2024 17:06:17.300] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft METHOD createSearchTrees()V to access PUBLIC and LEAVE
+[20Jun2024 17:06:17.301] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Minecraft @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.318] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/platform/WindowEventHandler @Lnet/neoforged/api/distmarker/OnlyIn;
+[20Jun2024 17:06:17.322] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.util.thread.BlockableEventLoop METHOD submitAsync(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture; to access PUBLIC and LEAVE
+[20Jun2024 17:06:17.639] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[20Jun2024 17:06:17.643] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[20Jun2024 17:06:17.643] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[20Jun2024 17:06:17.751] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@60dd0587
+[20Jun2024 17:06:17.956] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@60dd0587
+[20Jun2024 17:06:18.102] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[20Jun2024 17:06:18.526] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[20Jun2024 17:06:18.721] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[20Jun2024 17:06:18.762] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[20Jun2024 17:06:19.319] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[20Jun2024 17:06:19.822] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[20Jun2024 17:06:20.382] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[20Jun2024 17:06:21.081] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[20Jun2024 17:06:21.136] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[20Jun2024 17:06:21.155] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 198 Datafixer optimizations took 140 milliseconds
+[20Jun2024 17:06:21.184] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[20Jun2024 17:06:21.265] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[20Jun2024 17:06:21.404] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[20Jun2024 17:06:21.427] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[20Jun2024 17:06:21.558] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[20Jun2024 17:06:22.074] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[20Jun2024 17:06:22.074] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[20Jun2024 17:06:22.075] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[20Jun2024 17:06:22.076] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[20Jun2024 17:06:22.076] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[20Jun2024 17:06:22.077] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[20Jun2024 17:06:22.077] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[20Jun2024 17:06:22.079] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[20Jun2024 17:06:22.079] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[20Jun2024 17:06:22.079] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4278190080 bytes (maybe)
+[20Jun2024 17:06:22.080] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\lucab\AppData\Local\Temp (java.io.tmpdir)
+[20Jun2024 17:06:22.080] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20Jun2024 17:06:22.080] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[20Jun2024 17:06:22.081] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[20Jun2024 17:06:22.081] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[20Jun2024 17:06:22.082] [pool-6-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[20Jun2024 17:06:22.082] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[20Jun2024 17:06:22.579] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[20Jun2024 17:06:22.621] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[20Jun2024 17:06:22.647] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[20Jun2024 17:06:22.659] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[20Jun2024 17:06:22.679] [pool-6-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[20Jun2024 17:06:22.965] [pool-6-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[20Jun2024 17:06:22.987] [pool-6-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[20Jun2024 17:06:23.553] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[20Jun2024 17:06:23.638] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/RaidCommand
+[20Jun2024 17:06:23.701] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20Jun2024 17:06:23.702] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20Jun2024 17:06:23.706] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20Jun2024 17:06:23.708] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20Jun2024 17:06:23.710] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20Jun2024 17:06:23.827] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lucab/MCreatorWorkspaces/bert_coin_mod/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.4.223/neoforge-20.4.223.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[20Jun2024 17:06:23.828] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/lucab/MCreatorWorkspaces/bert_coin_mod/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.4.223/neoforge-20.4.223.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[20Jun2024 17:06:23.856] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20Jun2024 17:06:23.867] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20Jun2024 17:06:23.958] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
+[20Jun2024 17:06:24.105] [Render thread/DEBUG] [net.neoforged.neoforge.common.I18nExtension/CORE]: Loading I18N data entries: 6783
+[20Jun2024 17:06:24.121] [Render thread/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[20Jun2024 17:06:24.131] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.mcreator.bertcoinmod.BertCoinModMod
+[20Jun2024 17:06:24.134] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.neoforged.neoforge.common.NeoForgeMod
+[20Jun2024 17:06:24.150] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: NeoForge Version package package net.neoforged.neoforge.internal.versions.neoforge, NeoForge, version 20.4 from cpw.mods.modlauncher.TransformingClassLoader@60dd0587
+[20Jun2024 17:06:24.151] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 20.4.223
+[20Jun2024 17:06:24.152] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge spec 20.4
+[20Jun2024 17:06:24.152] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge group net.neoforged
+[20Jun2024 17:06:24.153] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: NeoForm Version package package net.neoforged.neoforge.internal.versions.neoform from cpw.mods.modlauncher.TransformingClassLoader@60dd0587
+[20Jun2024 17:06:24.153] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: Found MC version information 1.20.4
+[20Jun2024 17:06:24.153] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: Found NeoForm version information 20231207.154220
+[20Jun2024 17:06:24.153] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.223, for MC 1.20.4 with MCP 20231207.154220
+[20Jun2024 17:06:24.154] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: Loading Network data for FML net version: 20.4
+[20Jun2024 17:06:24.168] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for bert_coin_mod
+[20Jun2024 17:06:24.174] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.mcreator.bertcoinmod.network.BertCoinModModVariables$EventBusVariableHandlers to FORGE
+[20Jun2024 17:06:24.177] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.mcreator.bertcoinmod.network.BertCoinModModVariables to MOD
+[20Jun2024 17:06:24.182] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[20Jun2024 17:06:24.182] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[20Jun2024 17:06:24.182] [modloading-worker-0/DEBUG] [net.neoforged.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod neoforge
+[20Jun2024 17:06:24.208] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[20Jun2024 17:06:24.208] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[20Jun2024 17:06:24.209] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[20Jun2024 17:06:24.332] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[20Jun2024 17:06:24.333] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[20Jun2024 17:06:24.333] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6e0bdc41
+[20Jun2024 17:06:24.341] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[20Jun2024 17:06:24.342] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[20Jun2024 17:06:24.345] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
+[20Jun2024 17:06:24.345] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
+[20Jun2024 17:06:24.345] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[20Jun2024 17:06:24.345] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[20Jun2024 17:06:24.345] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[20Jun2024 17:06:24.345] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[20Jun2024 17:06:24.345] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[20Jun2024 17:06:24.346] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20Jun2024 17:06:24.346] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[20Jun2024 17:06:24.346] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[20Jun2024 17:06:24.346] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[20Jun2024 17:06:24.346] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[20Jun2024 17:06:24.354] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[20Jun2024 17:06:24.355] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[20Jun2024 17:06:24.355] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20Jun2024 17:06:24.361] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[20Jun2024 17:06:24.363] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler to MOD
+[20Jun2024 17:06:24.364] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$ColorRegisterHandler to MOD
+[20Jun2024 17:06:24.366] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.model.data.ModelDataManager to FORGE
+[20Jun2024 17:06:24.367] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ClientNeoForgeMod to MOD
+[20Jun2024 17:06:24.369] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ClientHooks$ClientEvents to MOD
+[20Jun2024 17:06:24.373] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer to FORGE
+[20Jun2024 17:06:24.374] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to FORGE
+[20Jun2024 17:06:24.399] [Render thread/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[20Jun2024 17:06:24.518] [Render thread/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[20Jun2024 17:06:24.539] [Render thread/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[20Jun2024 17:06:24.993] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[20Jun2024 17:06:25.095] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: mod_resources, mod:bert_coin_mod, mod:neoforge, vanilla
+[20Jun2024 17:06:25.109] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[20Jun2024 17:06:25.111] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\neoforge-client.toml
+[20Jun2024 17:06:25.112] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\neoforge-client.toml
+[20Jun2024 17:06:25.117] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\neoforge-client.toml for changes
+[20Jun2024 17:06:25.129] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[20Jun2024 17:06:25.130] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[20Jun2024 17:06:25.170] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.04.hex, loading
+[20Jun2024 17:06:25.320] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 1 jobs
+[20Jun2024 17:06:25.324] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.612 ms
+[20Jun2024 17:06:26.856] [Render thread/DEBUG] [net.neoforged.neoforge.common.I18nExtension/CORE]: Loading I18N data entries: 6787
+[20Jun2024 17:06:26.879] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20Jun2024 17:06:26.880] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20Jun2024 17:06:26.881] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.generic.wind_burst
+[20Jun2024 17:06:26.989] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (4- Realtek(R) Audio)
+[20Jun2024 17:06:26.990] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20Jun2024 17:06:27.105] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[20Jun2024 17:06:27.113] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[20Jun2024 17:06:27.113] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[20Jun2024 17:06:27.114] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[20Jun2024 17:06:27.114] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[20Jun2024 17:06:27.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[20Jun2024 17:06:27.118] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[20Jun2024 17:06:27.118] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[20Jun2024 17:06:27.118] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20Jun2024 17:06:27.345] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20Jun2024 17:06:27.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20Jun2024 17:06:27.408] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20Jun2024 17:06:27.408] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20Jun2024 17:06:27.408] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20Jun2024 17:06:32.869] [Worker-Main-5/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[20Jun2024 17:06:33.088] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[20Jun2024 17:06:33.298] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[20Jun2024 17:06:33.710] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[20Jun2024 17:06:33.748] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.4
+[20Jun2024 17:06:33.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Jun2024 17:06:33.854] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[20Jun2024 17:06:33.855] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\neoforge-server.toml
+[20Jun2024 17:06:33.856] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\neoforge-server.toml
+[20Jun2024 17:06:33.856] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\lucab\MCreatorWorkspaces\bert_coin_mod\runs\client\config\neoforge-server.toml for changes
+[20Jun2024 17:06:33.856] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[20Jun2024 17:06:33.891] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[20Jun2024 17:06:33.897] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[20Jun2024 17:06:33.901] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[20Jun2024 17:06:33.904] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[20Jun2024 17:06:34.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Jun2024 17:06:36.231] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[20Jun2024 17:06:36.897] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 17:06:36.897] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 17:06:36.897] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 17:06:36.897] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 17:06:36.973] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 17:06:37.475] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[20Jun2024 17:06:37.723] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[20Jun2024 17:06:37.734] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2772 ms
+[20Jun2024 17:06:37.814] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[20Jun2024 17:06:37.852] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[20Jun2024 17:06:37.852] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20Jun2024 17:06:37.871] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
+[20Jun2024 17:06:37.879] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[20Jun2024 17:06:37.891] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[20Jun2024 17:06:37.891] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[20Jun2024 17:06:37.897] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[20Jun2024 17:06:37.936] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 3240 (auto-detected)
+[20Jun2024 17:06:37.938] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[20Jun2024 17:06:37.939] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
+[20Jun2024 17:06:37.947] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[20Jun2024 17:06:37.949] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[20Jun2024 17:06:37.965] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+[20Jun2024 17:06:38.082] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[20Jun2024 17:06:38.083] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[20Jun2024 17:06:38.083] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[20Jun2024 17:06:38.083] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[20Jun2024 17:06:38.083] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[20Jun2024 17:06:38.347] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:dfae0e84] logged in with entity id 228 at (-3.5293752167331442, 76.62611552405195, 11.343959754743933)
+[20Jun2024 17:06:38.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20Jun2024 17:06:38.633] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3 advancements
+[20Jun2024 17:06:40.503] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x76f70c70cca41845
+[20Jun2024 17:08:00.875] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20Jun2024 17:08:00.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Jun2024 17:08:00.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Jun2024 17:08:00.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Jun2024 17:08:00.935] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[20Jun2024 17:08:02.075] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20Jun2024 17:08:02.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Jun2024 17:08:02.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Jun2024 17:08:02.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Jun2024 17:08:02.122] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[20Jun2024 17:08:05.089] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[20Jun2024 17:08:05.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[20Jun2024 17:08:05.109] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[20Jun2024 17:08:05.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Jun2024 17:08:05.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Jun2024 17:08:05.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Jun2024 17:08:05.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20Jun2024 17:08:06.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20Jun2024 17:08:06.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20Jun2024 17:08:06.211] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[20Jun2024 17:08:06.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20Jun2024 17:08:06.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Jun2024 17:08:06.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Jun2024 17:08:06.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Jun2024 17:08:06.230] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[20Jun2024 17:08:07.718] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

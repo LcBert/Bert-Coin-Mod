@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="bert_coin_mod"
+version="1.0.0"
+displayName="Bert Coin Mod"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Bert"
+description="A fully currencty magement mod"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.bert_coin_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
