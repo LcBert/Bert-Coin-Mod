@@ -181,6 +181,25 @@
           "src/main/java/net/mcreator/bertcoinmod/command/CoinCommandCommand.java"
         ]
       }
+    },
+    {
+      "name": "WalletShowCoinAmount",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallet_show_coin_amount",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/procedures/WalletShowCoinAmountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -209,7 +228,7 @@
     "modid": "bert_coin_mod",
     "modName": "Bert Coin Mod",
     "version": "1.0.0",
-    "description": "A fully currencty magement mod",
+    "description": "A currency magement mod",
     "author": "Bert",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",

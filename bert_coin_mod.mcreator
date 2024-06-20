@@ -230,7 +230,7 @@
     "version": "1.0.0",
     "description": "A currency magement mod",
     "author": "Bert",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/LcBert/Bert-Coin-Mod",
     "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
