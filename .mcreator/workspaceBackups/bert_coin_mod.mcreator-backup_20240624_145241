@@ -1,0 +1,253 @@
+{
+  "mod_elements": [
+    {
+      "name": "CoinModTab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_mod_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Wallet",
+      "type": "item",
+      "sortid": 1,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "wallet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/item/WalletItem.java",
+          "src/main/resources/assets/bert_coin_mod/models/item/wallet.json"
+        ]
+      }
+    },
+    {
+      "name": "Coin",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/item/CoinItem.java",
+          "src/main/resources/assets/bert_coin_mod/models/item/coin.json"
+        ]
+      }
+    },
+    {
+      "name": "WalletProcedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallet_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/procedures/WalletProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AddCoinProcedure",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_coin_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/procedures/AddCoinProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RemoveCoinProcedure",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_coin_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/procedures/RemoveCoinProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetCoinProcedure",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_coin_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/procedures/SetCoinProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClearCoinProcedure",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_coin_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/procedures/ClearCoinProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetCoinProcedure",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_coin_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/procedures/GetCoinProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoinCommand",
+      "type": "command",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/command/CoinCommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "WalletShowCoinAmount",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallet_show_coin_amount",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bertcoinmod/procedures/WalletShowCoinAmountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Coins",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item_group.bert_coin_mod.coin_mod_tab": "Bert Coin Mod",
+      "item.bert_coin_mod.wallet": "Wallet",
+      "item.bert_coin_mod.coin": "Coin",
+      "gui.bert_coin_mod.wallet_gui.button_store_coins": "Store Coins"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bert_coin_mod",
+    "modName": "Bert Coin Mod",
+    "version": "1.0.0",
+    "description": "A currency magement mod",
+    "author": "Bert",
+    "websiteURL": "https://github.com/LcBert/Bert-Coin-Mod",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.bertcoinmod"
+  },
+  "mcreatorVersion": 202400118518
+}

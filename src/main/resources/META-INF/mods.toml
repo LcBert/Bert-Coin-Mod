@@ -6,10 +6,10 @@ license="MIT License"
 modId="bert_coin_mod"
 version="1.0.0"
 displayName="Bert Coin Mod"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/LcBert/Bert-Coin-Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Bert"
-description="A fully currencty magement mod"
+description="A currency magement mod"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

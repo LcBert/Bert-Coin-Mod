@@ -27,10 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "Right-Click to insert coin",
-        "Shift + Right-Click to retrieve coin"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
@@ -40,9 +37,6 @@
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
       "name": "WalletProcedure"
-    },
-    "onItemInUseTick": {
-      "name": "WalletShowCoinAmount"
     },
     "enableRanged": false,
     "shootConstantly": false,
