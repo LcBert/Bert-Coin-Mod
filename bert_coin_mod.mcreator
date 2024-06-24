@@ -34,8 +34,8 @@
       "registry_name": "coin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bertcoinmod/item/CoinItem.java",
-          "src/main/resources/assets/bert_coin_mod/models/item/coin.json"
+          "src/main/resources/assets/bert_coin_mod/models/item/coin.json",
+          "src/main/java/net/mcreator/bertcoinmod/item/CoinItem.java"
         ]
       }
     },
