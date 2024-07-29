@@ -3,7 +3,6 @@
     {
       "name": "CoinModTab",
       "type": "tab",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coin_mod_tab",
@@ -14,7 +13,6 @@
     {
       "name": "Wallet",
       "type": "item",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallet",
@@ -28,7 +26,6 @@
     {
       "name": "Coin",
       "type": "item",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coin",
@@ -42,7 +39,6 @@
     {
       "name": "WalletProcedure",
       "type": "procedure",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallet_procedure",
@@ -65,7 +61,6 @@
     {
       "name": "AddCoinProcedure",
       "type": "procedure",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "add_coin_procedure",
@@ -88,7 +83,6 @@
     {
       "name": "RemoveCoinProcedure",
       "type": "procedure",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remove_coin_procedure",
@@ -111,7 +105,6 @@
     {
       "name": "SetCoinProcedure",
       "type": "procedure",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_coin_procedure",
@@ -134,7 +127,6 @@
     {
       "name": "ClearCoinProcedure",
       "type": "procedure",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clear_coin_procedure",
@@ -153,7 +145,6 @@
     {
       "name": "GetCoinProcedure",
       "type": "procedure",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_coin_procedure",
@@ -172,7 +163,6 @@
     {
       "name": "CoinCommand",
       "type": "command",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coin_command",
@@ -185,7 +175,6 @@
     {
       "name": "WalletTooltip",
       "type": "procedure",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallet_tooltip",
@@ -220,6 +209,7 @@
   ],
   "sound_elements": [],
   "tag_elements": {},
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item_group.bert_coin_mod.coin_mod_tab": "Bert Coin Mod",
@@ -249,5 +239,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.bertcoinmod"
   },
-  "mcreatorVersion": 202400118518
+  "mcreatorVersion": 202400229712
 }
